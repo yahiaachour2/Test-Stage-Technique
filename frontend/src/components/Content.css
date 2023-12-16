@@ -1,0 +1,105 @@
+/* src/components/Content.css */
+
+.content-container {
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.form-container button:last-child {
+  background-color: #d9534f;
+}
+
+.form-container button:last-child:hover {
+  background-color: #c9302c;
+}
+
+/* Improved styling for the action buttons in the table */
+.styled-table button {
+  padding: 8px 12px;
+  margin-right: 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.styled-table button.delete {
+  background-color: #d9534f;
+  color: white;
+}
+
+.styled-table button.delete:hover {
+  background-color: #c9302c;
+}
+
+.styled-table button.update {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.styled-table button.update:hover {
+  background-color: #46b8da;
+}
+
+
+.content-container table button {
+  background: none;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}
